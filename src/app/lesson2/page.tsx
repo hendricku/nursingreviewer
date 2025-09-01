@@ -3,13 +3,10 @@ import React from 'react';
 
 // --- Icon Components (reused from Lesson1) ---
 const HeartIcon = () => <svg className="w-8 h-8 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd"></path></svg>;
-const LayersIcon = () => <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>;
 const ValveIcon = () => <svg className="w-8 h-8 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3"></path></svg>;
 const ZapIcon = () => <svg className="w-8 h-8 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>;
 const ActivityIcon = () => <svg className="w-8 h-8 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>;
-const WaveIcon = () => <svg className="w-8 h-8 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12h4l3 8 4-16 3 8h4"></path></svg>;
 const DropletIcon = () => <svg className="w-8 h-8 text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 2.69l5.66 5.66a8 8 0 11-11.32 0L12 2.69z"></path></svg>;
-const CycleIcon = () => <svg className="w-8 h-8 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 4v5h5M20 20v-5h-5M4 4l16 16"></path></svg>;
 const GaugeIcon = () => <svg className="w-8 h-8 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>;
 const ECGIcon = () => <svg className="w-8 h-8 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 13h6m2 3H7m6 0h2m-4 0h2m-6 0h2m-2 4h4m-4 0h2m-2 0h2m4-4h2m-2 0h2m-4 0h2M12 3v18M4 7h16M4 17h16" /></svg>; // Custom icon for ECG
 const HelpCircleIcon = () => <svg className="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>;
@@ -268,7 +265,7 @@ const Lesson2 = () => {
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Causes</h3>
               <ul className="list-disc list-inside space-y-1">
                 <li>Hypertension, Coronary artery disease, Heart failure</li>
-                <li>Valvular disease, Hyperthyroidism, Alcohol ("holiday heart")</li>
+                <li>Valvular disease, Hyperthyroidism, Alcohol (&quot;holiday heart&quot;)</li>
               </ul>
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Symptoms</h3>
               <ul className="list-disc list-inside space-y-1">
@@ -285,7 +282,7 @@ const Lesson2 = () => {
             </Card>
 
             <Card title="Atrial Flutter" icon={<ZapIcon />}>
-              <p>A type of supraventricular tachycardia caused by a reentrant circuit in the atria, leading to a rapid, regular atrial rate (usually ~250–350 bpm). Rapid, regular atrial rhythm (sawtooth waves).</p>
+              <p>A type of supraventricular tachycardia caused by a reentrant circuit in the atria, leading to a rapid, regular atrial rate (usually ~250–350 bpm). Rapid, regular atrial rhythm (&quot;sawtooth&quot; waves).</p>
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Causes</h3>
               <ul className="list-disc list-inside space-y-1">
                 <li>Heart failure, Valvular heart disease, Post-cardiac surgery</li>
@@ -482,7 +479,7 @@ const Lesson2 = () => {
                 <div className="border-t border-gray-200 pt-4">
                   <h3 className="font-semibold text-xl text-gray-800 mb-2">Procedures & Devices</h3>
                   <ul className="list-disc list-inside space-y-2">
-                    <li>Cardioversion (electrical “reset”)</li>
+                    <li>Cardioversion (electrical &quot;reset&quot;)</li>
                     <li>Catheter ablation for supraventricular arrhythmias and AFib</li>
                     <li>Pacemakers for bradycardia; ICDs for ventricular tachycardia/fibrillation</li>
                   </ul>

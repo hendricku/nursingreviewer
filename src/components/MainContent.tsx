@@ -43,7 +43,7 @@ const MainContent = () => {
       </h1>
       <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-4">
         Galatians 6:9 (NIV)<br />
-        "Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up."
+        &quot;Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.&quot;
       </h2>
       <p className="text-gray-600 max-w-xl mb-8 text-sm sm:text-base">
         This reviewer is designed to help you ace your prelims. It contains materials covering Cardiac Anaphylaxis, Coronary Vascular Disorders, and Cardiac Dysrhythmias.

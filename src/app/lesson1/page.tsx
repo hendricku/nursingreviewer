@@ -53,7 +53,7 @@ const Lesson1 = () => {
           
           <header className="mb-12 text-center">
             <h1 className="text-6xl font-extrabold text-gray-900 mb-3 tracking-tight">Cardiovascular Ana-Phy</h1>
-            <p className="text-2xl text-gray-500">A Deep Dive into the Heart's Core Functions</p>
+            <p className="text-2xl text-gray-500">A Deep Dive into the Heart&apos;s Core Functions</p>
           </header>
 
           <div className="mb-12 bg-white p-8 rounded-2xl shadow-2xl border border-purple-200/50">
