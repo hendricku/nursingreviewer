@@ -11,9 +11,9 @@ const Header = () => {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/', label: 'Lesson 1: Cardiovascular' },
-    { href: '/', label: 'Lesson 2: Respiratory' },
-    { href: '/', label: 'Lesson 3: Neurological' },
+    { href: '/lesson1', label: 'Cardiac Anaphylaxis' },
+    { href: '/lesson2', label: 'Cardiac Dysrhythmias' },
+    { href: '/lesson3', label: ' Coronary Vascular Disorders' },
   ];
 
   return (

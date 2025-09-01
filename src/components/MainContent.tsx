@@ -9,14 +9,14 @@ const reviewerFiles = [
     description: 'PowerPoint presentation on Cardiac Anaphylaxis',
   },
   {
-    title: 'Lesson 2: Coronary Vascular Disorders',
-    filename: '/LESSON-3_CORONARY-VASCULAR-DISORDERS.pdf',
-    description: 'PDF document on Coronary Vascular Disorders',
+    title: 'Lesson 2:Cardiac Dysrhythmias',
+    filename: '/lesson2',
+    description: 'PDF document on Cardiac Dysrhythmias',
   },
   {
-    title: 'Lesson 3: Cardiac Dysrhythmias',
+    title: 'Lesson 3: Coronary Vascular Disorders',
     filename: '/Cardiac-Dysrhythmias.pptx',
-    description: 'PowerPoint presentation on Cardiac Dysrhythmias',
+    description: 'PowerPoint presentation on Coronary Vascular Disorders',
   },
 ];
 
