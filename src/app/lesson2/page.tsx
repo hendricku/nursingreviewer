@@ -357,7 +357,7 @@ const Lesson2 = () => {
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Symptoms</h3>
               <ul className="list-disc list-inside space-y-1">
                 <li>Often asymptomatic</li>
-                <li>May feel like palpitations or "skipped beats"</li>
+                <li>May feel like palpitations or &quot;skipped beats&quot;</li>
               </ul>
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Management</h3>
               <ul className="list-disc list-inside space-y-1">
@@ -442,7 +442,7 @@ const Lesson2 = () => {
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Symptoms</h3>
               <ul className="list-disc list-inside space-y-1">
                 <li>Usually asymptomatic</li>
-                <li>May feel like a palpitation or "skipped beat"</li>
+                <li>May feel like a palpitation or &quot;skipped beat&quot;</li>
               </ul>
               <h3 className="font-semibold text-xl text-gray-800 mt-4">Management</h3>
               <ul className="list-disc list-inside space-y-1">
