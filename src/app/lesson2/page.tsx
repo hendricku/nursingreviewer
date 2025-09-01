@@ -295,7 +295,7 @@ const Lesson2 = () => {
               </ul>
               <h3 className="font-semibold text-xl text-gray-800 mt-4">ECG Characteristics</h3>
               <ul className="list-disc list-inside space-y-1">
-                <li>"Sawtooth" flutter waves (especially in leads II, III, aVF)</li>
+                <li>&quot;Sawtooth&quot; flutter waves (especially in leads II, III, aVF)</li>
                 <li>Regular atrial activity</li>
                 <li>Ventricular rate often regular (e.g., 2:1, 3:1 conduction)</li>
                 <li>Narrow QRS unless preexisting block</li>
@@ -454,7 +454,7 @@ const Lesson2 = () => {
             </Card>
 
             <Card title="Ventricular Dysrhythmias" icon={<DropletIcon />}>
-              <p>Some ventricular dysrhythmias are indeed life-threatening. They can disrupt the heart's ability to pump blood effectively, leading to serious complications like cardiac arrest or sudden cardiac death.</p>
+              <p>Some ventricular dysrhythmias are indeed life-threatening. They can disrupt the heart&apos;s ability to pump blood effectively, leading to serious complications like cardiac arrest or sudden cardiac death.</p>
             </Card>
 
               <Card title="Common Causes of Arrhythmias" icon={<HelpCircleIcon />} className="lg:col-span-3">
